@@ -1,0 +1,20 @@
+#Proyecto de Seguridad Integral y Gestion Ambiental
+
+##G3
+
+from tkinter import *
+import tkinter.messagebox as box
+from PIL import ImageTk
+
+class PrincipalScreen(Tk):
+    def __init__(self):
+        super().__init__()
+
+        self.title("ErgoMetric")
+        self.geometry('730x480')
+        self.resizable(0,0)
+        self.configure(bg='gray')
+        
+        #icono de ventana
+        self.iconphoto(False,PhotoImage(file='Itala\ErgoMetricAPP.png'))
+
